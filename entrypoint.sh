@@ -1,14 +1,5 @@
-#!/bin/bash -l
-set -eu
+#!/bin/bash
 
-chmod +x ./gradlew
+echo -e "\n--> Running 'sh gradlew $2'\n"
 
-if [ -n "$1" ]; then
-    mkdir -p $ANDROID_HOME/licenses
-    echo -e $1 >> $ANDROID_HOME/licenses/android-sdk-license
-    echo $"\nLicences accepted"
-fi
-
-echo $"\n--> Running './gradlew $2'\n"
-
-sh -c "./gradlew $2"
+sh gradlew $2
