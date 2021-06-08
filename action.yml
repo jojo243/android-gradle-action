@@ -1,4 +1,4 @@
-name: 'Gradle Android'
+name: 'Run gradle task'
 description: 'Run Android Gradle tasks'
 
 branding:
