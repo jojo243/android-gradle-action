@@ -11,7 +11,7 @@ inputs:
     required: true
   android-licence:
     description: 'Your Android license agreement id'
-    
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
