@@ -9,9 +9,12 @@ inputs:
   script:
     description: 'The ./gradlew command arguments'
     required: true
-
+  android-licence:
+    description: 'Your Android license agreement id'
+    
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
+    - ${{ inputs.android-licence }}
     - ${{ inputs.script }}
