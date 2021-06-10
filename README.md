@@ -27,7 +27,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run Gradle command
-      uses: jojo243/android-gradle-action@2.1.2
+      uses: jojo243/android-gradle-action@2.1.3
       with:
         # The gradle command you wish to run (required)
         # Here, `./gradlew test` will be run
