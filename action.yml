@@ -9,7 +9,7 @@ inputs:
   script:
     description: 'The ./gradlew command arguments'
     required: true
-  android-licence:
+  android-license:
     description: 'Your Android license agreement id'
 
 runs:
